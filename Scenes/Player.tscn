@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bondiju7me6qd"]
+
+[ext_resource type="Script" uid="uid://gslrb72hif4x" path="res://Scripts/player.gd" id="1_kyqiw"]
+[ext_resource type="Texture2D" uid="uid://bao6hytkeknyf" path="res://Assets/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Mushroom/Mushroom_1/Idle/Idle_R_1.png" id="1_rpqav"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wii0j"]
+radius = 8.0
+
+[node name="Player" type="CharacterBody2D" unique_id=1772628221]
+script = ExtResource("1_kyqiw")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=744283038]
+texture = ExtResource("1_rpqav")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2124463931]
+position = Vector2(0, 4)
+shape = SubResource("CircleShape2D_wii0j")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=239948377]
+zoom = Vector2(3.5, 3.5)
