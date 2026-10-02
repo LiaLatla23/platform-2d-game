@@ -2,8 +2,16 @@ extends CharacterBody2D
 
 
 const SPEED = 125.0
-const JUMP_VELOCITY = -250.0
+const JUMP_VELOCITY = -270.0
 
+@onready var anim = $Sprite2D
+
+var coins = 0
+@onready var hud = get_node("/root/Map/CanvasLayer");
+
+func add_coin():
+	coins+=1
+	hud.set_coins(coins)
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -19,7 +27,15 @@ func _physics_process(delta: float) -> void:
 	var direction := Input.get_axis("ui_left", "ui_right")
 	if direction:
 		velocity.x = direction * SPEED
+		anim.flip_h = direction < 0
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
+
+	if not is_on_floor() && velocity.y<0:
+		anim.play("Idle")
+	elif direction !=0:
+		anim.play("Walk")
+	else:
+		anim.play("Jump")

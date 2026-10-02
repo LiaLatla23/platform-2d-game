@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://v4px641uuhm4"]
+
+[ext_resource type="Texture2D" uid="uid://b4gwiakia8jc1" path="res://Assets/Four_Seasons_Platformer_Sprites/Sprites [Enemies]/Bee/Bee.png" id="1_o7wem"]
+[ext_resource type="Script" uid="uid://r6kgauoxq260" path="res://Scripts/bee.gd" id="1_ug8hw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ug8hw"]
+atlas = ExtResource("1_o7wem")
+region = Rect2(0, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rtnth"]
+atlas = ExtResource("1_o7wem")
+region = Rect2(24, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y26aa"]
+atlas = ExtResource("1_o7wem")
+region = Rect2(48, 0, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y5fbj"]
+atlas = ExtResource("1_o7wem")
+region = Rect2(72, 0, 24, 24)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_s3woa"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ug8hw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rtnth")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y26aa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y5fbj")
+}],
+"loop": 1,
+"name": &"Idle",
+"speed": 20.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o7wem"]
+size = Vector2(60.889526, 3.8211093)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s3woa"]
+size = Vector2(5.807242, 13.644568)
+
+[node name="Bee" type="Node2D" unique_id=1546736497]
+script = ExtResource("1_ug8hw")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=829186763]
+sprite_frames = SubResource("SpriteFrames_s3woa")
+animation = &"Idle"
+autoplay = "Idle"
+frame_progress = 0.90502334
+
+[node name="Area2D" type="Area2D" parent="." unique_id=192927081]
+
+[node name="TopBee" type="CollisionShape2D" parent="Area2D" unique_id=1236808883]
+position = Vector2(-0.07035208, -4.014833)
+rotation = -3.1415925
+scale = Vector2(0.16654266, -0.53117186)
+shape = SubResource("RectangleShape2D_o7wem")
+
+[node name="Area2D2" type="Area2D" parent="." unique_id=1971711035]
+
+[node name="BottomBee" type="CollisionShape2D" parent="Area2D2" unique_id=495059711]
+position = Vector2(-1.5646219e-07, 1.5)
+rotation = -3.1415925
+scale = Vector2(1.721988, 0.5130247)
+shape = SubResource("RectangleShape2D_s3woa")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Area2D2" to="." method="_on_area_2d_2_body_entered"]
