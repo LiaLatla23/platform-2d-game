@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://clp8xhguoub5i"
+path="res://.godot/imported/83 - Light Minute.mp3-4582250c24da3c827a7de487a24cef1f.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/83 - Light Minute.mp3"
+dest_files=["res://.godot/imported/83 - Light Minute.mp3-4582250c24da3c827a7de487a24cef1f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

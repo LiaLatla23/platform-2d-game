@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c0nv7k6pnac3v"
+path="res://.godot/imported/53 - Unspun.mp3-81da07f5773fb3262303ea938c16f1c8.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/53 - Unspun.mp3"
+dest_files=["res://.godot/imported/53 - Unspun.mp3-81da07f5773fb3262303ea938c16f1c8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

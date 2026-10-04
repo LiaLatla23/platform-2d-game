@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bea6s64orhf4g"
+path="res://.godot/imported/80 - What You Could Have.mp3-e96f578f698b4d9781635b56c7eceb52.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/80 - What You Could Have.mp3"
+dest_files=["res://.godot/imported/80 - What You Could Have.mp3-e96f578f698b4d9781635b56c7eceb52.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

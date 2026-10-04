@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://fqerfcqnpbcl"
+path="res://.godot/imported/86 - Sorry Can't Tell.mp3-fb49458ca01fe6cc0adbeef8569465e8.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/86 - Sorry Can't Tell.mp3"
+dest_files=["res://.godot/imported/86 - Sorry Can't Tell.mp3-fb49458ca01fe6cc0adbeef8569465e8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

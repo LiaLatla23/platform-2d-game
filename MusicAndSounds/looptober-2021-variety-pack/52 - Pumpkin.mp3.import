@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cgmixx4gwy1gw"
+path="res://.godot/imported/52 - Pumpkin.mp3-b0eaa9caa50fff901b9778f342303c00.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/52 - Pumpkin.mp3"
+dest_files=["res://.godot/imported/52 - Pumpkin.mp3-b0eaa9caa50fff901b9778f342303c00.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

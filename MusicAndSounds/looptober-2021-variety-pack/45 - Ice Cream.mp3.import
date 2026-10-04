@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cx7p7j7qwi0mc"
+path="res://.godot/imported/45 - Ice Cream.mp3-4772d44cd8ee38283722aa688ba4f965.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/45 - Ice Cream.mp3"
+dest_files=["res://.godot/imported/45 - Ice Cream.mp3-4772d44cd8ee38283722aa688ba4f965.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

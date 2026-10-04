@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://6sj1x37hcsv2"
+path="res://.godot/imported/01 - Gear Up.mp3-2aa432643ced583d50d44e54a1a82818.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/01 - Gear Up.mp3"
+dest_files=["res://.godot/imported/01 - Gear Up.mp3-2aa432643ced583d50d44e54a1a82818.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

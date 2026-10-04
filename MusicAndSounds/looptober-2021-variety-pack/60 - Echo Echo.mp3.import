@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bpu2wy0qkj4lv"
+path="res://.godot/imported/60 - Echo Echo.mp3-7418d40b45e38fd3ce93d47f7cfb7be4.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/60 - Echo Echo.mp3"
+dest_files=["res://.godot/imported/60 - Echo Echo.mp3-7418d40b45e38fd3ce93d47f7cfb7be4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

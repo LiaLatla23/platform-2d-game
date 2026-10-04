@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://pin3sw0b2rij"
+path="res://.godot/imported/57 - Chatty Robofly.mp3-fdfd5ef8ec995933e86c3f6937a8d94f.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/57 - Chatty Robofly.mp3"
+dest_files=["res://.godot/imported/57 - Chatty Robofly.mp3-fdfd5ef8ec995933e86c3f6937a8d94f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

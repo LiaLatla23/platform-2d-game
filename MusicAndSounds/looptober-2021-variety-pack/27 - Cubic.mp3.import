@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bwmnerd4ywmmy"
+path="res://.godot/imported/27 - Cubic.mp3-51c9b933df99267facc5ef35900a48a8.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/27 - Cubic.mp3"
+dest_files=["res://.godot/imported/27 - Cubic.mp3-51c9b933df99267facc5ef35900a48a8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://buadv3ip3tkt6"
+path="res://.godot/imported/69 - Screep.mp3-59c4134e6c945d3a888bd41ef26a1693.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/69 - Screep.mp3"
+dest_files=["res://.godot/imported/69 - Screep.mp3-59c4134e6c945d3a888bd41ef26a1693.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

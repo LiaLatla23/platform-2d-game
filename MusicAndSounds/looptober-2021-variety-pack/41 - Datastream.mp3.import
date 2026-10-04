@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://6ske325muht6"
+path="res://.godot/imported/41 - Datastream.mp3-bc04b2c54f711129e4457154414403fc.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/41 - Datastream.mp3"
+dest_files=["res://.godot/imported/41 - Datastream.mp3-bc04b2c54f711129e4457154414403fc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

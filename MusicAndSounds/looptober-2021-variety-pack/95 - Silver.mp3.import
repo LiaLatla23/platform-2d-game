@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://3xr8nirr3ibf"
+path="res://.godot/imported/95 - Silver.mp3-c3358033350c9a2c317bd947d1877da8.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/95 - Silver.mp3"
+dest_files=["res://.godot/imported/95 - Silver.mp3-c3358033350c9a2c317bd947d1877da8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

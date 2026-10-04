@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c6en7x2o3idvq"
+path="res://.godot/imported/39 - Wavvy.mp3-f485c3f817c5eee1137fb19d606304b3.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/39 - Wavvy.mp3"
+dest_files=["res://.godot/imported/39 - Wavvy.mp3-f485c3f817c5eee1137fb19d606304b3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

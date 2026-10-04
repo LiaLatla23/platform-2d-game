@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ckw0gfacg7gl"
+path="res://.godot/imported/70 - Have A Weird Night.mp3-995a8a9f985c2637df051ae76967d577.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/70 - Have A Weird Night.mp3"
+dest_files=["res://.godot/imported/70 - Have A Weird Night.mp3-995a8a9f985c2637df051ae76967d577.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

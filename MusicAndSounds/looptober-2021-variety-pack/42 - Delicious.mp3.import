@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://btuacicg7wa4f"
+path="res://.godot/imported/42 - Delicious.mp3-8ea339d8820226f32be9dd115bf9475a.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/42 - Delicious.mp3"
+dest_files=["res://.godot/imported/42 - Delicious.mp3-8ea339d8820226f32be9dd115bf9475a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

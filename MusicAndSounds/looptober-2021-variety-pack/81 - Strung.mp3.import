@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b5vs0d33f6wxa"
+path="res://.godot/imported/81 - Strung.mp3-f27410d5f5920caccb06665d131054ea.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/81 - Strung.mp3"
+dest_files=["res://.godot/imported/81 - Strung.mp3-f27410d5f5920caccb06665d131054ea.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

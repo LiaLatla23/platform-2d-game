@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://osuyr6s2xtd"
+path="res://.godot/imported/73 - Disengage.mp3-058ec1efc172015ae7f266892360e78a.mp3str"
+
+[deps]
+
+source_file="res://MusicAndSounds/looptober-2021-variety-pack/73 - Disengage.mp3"
+dest_files=["res://.godot/imported/73 - Disengage.mp3-058ec1efc172015ae7f266892360e78a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
